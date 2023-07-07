@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="CSS/all.min.css" rel="stylesheet" />
     <link href="CSS/fontawesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="CSS/myProfileStyle.css" />
     <title>My Profile</title>
     <style type="text/css">
       iframe {
-        border: solid;
+        border: 1px solid;
         height: 500px;
         width: 50%;
         border-color: black;
@@ -18,10 +19,14 @@
       header {
         background-color: rgb(53, 41, 41);
         border-radius: 2px;
-        color: rgb(239, 227, 227);
-        height: 100%;
+        color: rgb(245, 240, 240);
+        height: 25px;
         width: 50%;
+        text-decoration: none;
+        text-align: right;
+        font-size: 17px;
       }
+     
     </style>
   </head>
   <body>
@@ -40,21 +45,23 @@
           href="Assets\Annaso_Kore_9890205790.pdf"
           target="_blank"
           download="Annaso_Kore_9890205790"
-          ><i class="fa-solid fa-download">&nbsp;</i> <span>Resume</span></a
+          ><i class="fa-solid fa-download">&nbsp;</i> <span>Resume &nbsp;</span></a
         >
       </div>
     </header>
     <br />
     <div>
       <nav>
-        <a href="index.html" target="myFrame">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="techStack.html" target="myFrame">TECHSTACK</a
+        <a href="index.html" target="myFrame" class="navlink">HOME</a
         >&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="projectDetails.html" target="myFrame">PROJECT</a
+        <a href="techStack.html" target="myFrame" class="navlink">TECHSTACK</a
         >&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="education.html" target="myFrame">EDUCATION</a
+        <a href="projectDetails.html" target="myFrame" class="navlink"
+          >PROJECT</a
         >&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="aboutMe.html" target="myFrame">ABOUT ME</a
+        <a href="education.html" target="myFrame" class="navlink">EDUCATION</a
+        >&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="aboutMe.html" target="myFrame" class="navlink">ABOUT ME</a
         >&nbsp;&nbsp;&nbsp;&nbsp;
       </nav>
     </div>
@@ -62,23 +69,40 @@
     <div>
       <iframe name="myFrame"></iframe>
     </div>
+    <br />
     <footer>
       <div>
-        <span>Follow me</span> &nbsp;&nbsp;&nbsp;
-        <a href="https://github.com/" target="_blank"
-          ><i class="fa-brands fa-github"></i></a
-        >&nbsp;&nbsp;
-        <a href="https://www.linkedin.com/feed/" target="_blank"
-          ><i class="fa-brands fa-linkedin"></i></a
-        >&nbsp;&nbsp;<a href="https://www.instagram.com/" target="_blank"
-          ><i class="fa-brands fa-instagram"></i></a
-        >&nbsp;&nbsp;<a href="https://www.facebook.com/" target="_blank"
-          ><i class="fa-brands fa-square-facebook"></i
+        <span style="font-weight: bold; font-size: large">Follow me</span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://github.com/" target="_blank" class="mediaIcons"
+          ><i class="fa-brands fa-github fa-2x"></i></a
+        >&nbsp;&nbsp;&nbsp;&nbsp;
+        <a
+          href="https://www.linkedin.com/feed/"
+          target="_blank"
+          class="mediaIcons"
+          ><i class="fa-brands fa-linkedin fa-2x"></i></a
+        >&nbsp;&nbsp;&nbsp;&nbsp;<a
+          href="https://www.instagram.com/"
+          target="_blank"
+          class="mediaIcons"
+          ><i class="fa-brands fa-instagram fa-2x"></i></a
+        >&nbsp;&nbsp;&nbsp;&nbsp;<a
+          href="https://www.facebook.com/"
+          target="_blank"
+          class="mediaIcons"
+          ><i class="fa-brands fa-square-facebook fa-2x"></i
         ></a>
-        &nbsp;&nbsp;<a href="https://www.twitter.com/" target="_blank"
-          ><i class="fa-brands fa-twitter"></i></a
-        >&nbsp;&nbsp;<a href="https://www.youtube.com/" target="_blank"
-          ><i class="fa-brands fa-youtube"></i
+        &nbsp;&nbsp;&nbsp;&nbsp;<a
+          href="https://www.twitter.com/"
+          target="_blank"
+          class="mediaIcons"
+          ><i class="fa-brands fa-twitter fa-2x"></i></a
+        >&nbsp;&nbsp;&nbsp;&nbsp;<a
+          href="https://www.youtube.com/"
+          target="_blank"
+          class="mediaIcons"
+          ><i class="fa-brands fa-youtube fa-2x"></i
         ></a>
         <p>
           Copyright &copy; 2023 Zoom Video Communications, Inc. All rights
