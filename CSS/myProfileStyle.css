@@ -1,0 +1,15 @@
+.h2, .h3{
+word-spacing: 5px;
+letter-spacing: 3px;
+text-shadow: 2px 2px 1px rgb(81, 71, 71);
+color: rgba(188, 75, 55, 0.977);
+font-size: x-large;
+}
+.navlink{
+text-decoration: none;
+font-weight: normal;
+text-transform: uppercase;
+}
+.mediaIcons{
+color: rgb(11, 11, 11);
+}
