@@ -8,101 +8,85 @@
     <link rel="stylesheet" href="CSS/myProfileStyle.css" />
     <title>My Profile</title>
     <style type="text/css">
-      iframe {
-        border: 1px solid;
-        height: 500px;
+      /* #iframe {
+        border: none;
+        height: 550px;
         width: 50%;
-        border-color: black;
         border-radius: 8px;
-      }
-      #ancher1,
-      header {
+        overflow: scroll;
+        padding: 5px;
+        margin: 5px 10px 0px 10px;
+      } */
+      /* #ancher1,
+      .header {
         background-color: rgb(53, 41, 41);
-        border-radius: 2px;
+        border-radius: 5px;
         color: rgb(245, 240, 240);
         height: 25px;
         width: 50%;
         text-decoration: none;
         text-align: right;
         font-size: 17px;
-      }
-     
+        padding: 5px;
+        margin: 5px 10px;
+      } */
     </style>
   </head>
   <body>
-    <header>
+    <header class="header">
       <div>
-        <i class="fa-regular fa-user"></i>&nbsp;<span>Annaso Kore</span
-        >&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa-solid fa-phone"></i>&nbsp;<span
-          >9890 2057 90</span
-        >
-        &nbsp;&nbsp;&nbsp;&nbsp; <i class="fa-solid fa-envelope"></i>&nbsp;<span
-          >annasokore@gmail.com</span
-        >
-        &nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fa-regular fa-user"></i
+        ><span class="headerContent">Annaso Kore</span
+        ><i class="fa-solid fa-phone"></i
+        ><span class="headerContent">9890 2057 90</span>
+        <i class="fa-solid fa-envelope"></i
+        ><span class="headerContent">annasokore@gmail.com</span>
         <a
           id="ancher1"
           href="Assets\Annaso_Kore_9890205790.pdf"
           target="_blank"
           download="Annaso_Kore_9890205790"
-          ><i class="fa-solid fa-download">&nbsp;</i> <span>Resume &nbsp;</span></a
-        >
+          ><i class="fa-solid fa-download"></i>
+          <span class="headerContent">Resume </span>
+        </a>
       </div>
     </header>
-    <br />
+
     <div>
-      <nav>
-        <a href="index.html" target="myFrame" class="navlink">HOME</a
-        >&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="techStack.html" target="myFrame" class="navlink">TECHSTACK</a
-        >&nbsp;&nbsp;&nbsp;&nbsp;
+      <nav class="nav1">
+        <a href="index.html" target="myFrame" class="navlink">HOME</a>
+        <a href="techStack.html" target="myFrame" class="navlink">TECHSTACK</a>
         <a href="projectDetails.html" target="myFrame" class="navlink"
           >PROJECT</a
-        >&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="education.html" target="myFrame" class="navlink">EDUCATION</a
-        >&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="aboutMe.html" target="myFrame" class="navlink">ABOUT ME</a
-        >&nbsp;&nbsp;&nbsp;&nbsp;
+        >
+        <a href="education.html" target="myFrame" class="navlink">EDUCATION</a>
+        <a href="aboutMe.html" target="myFrame" class="navlink">ABOUT ME</a>
       </nav>
     </div>
-    <br />
+
     <div>
-      <iframe name="myFrame"></iframe>
+      <iframe id="iframe" name="myFrame"></iframe>
     </div>
-    <br />
-    <footer>
+    <footer class="footer">
       <div>
         <span style="font-weight: bold; font-size: large">Follow me</span>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="https://github.com/" target="_blank" class="mediaIcons"
-          ><i class="fa-brands fa-github fa-2x"></i></a
-        >&nbsp;&nbsp;&nbsp;&nbsp;
+          ><i class="fa-brands fa-github"></i
+        ></a>
         <a
           href="https://www.linkedin.com/feed/"
           target="_blank"
           class="mediaIcons"
-          ><i class="fa-brands fa-linkedin fa-2x"></i></a
-        >&nbsp;&nbsp;&nbsp;&nbsp;<a
-          href="https://www.instagram.com/"
-          target="_blank"
-          class="mediaIcons"
-          ><i class="fa-brands fa-instagram fa-2x"></i></a
-        >&nbsp;&nbsp;&nbsp;&nbsp;<a
-          href="https://www.facebook.com/"
-          target="_blank"
-          class="mediaIcons"
-          ><i class="fa-brands fa-square-facebook fa-2x"></i
+          ><i class="fa-brands fa-linkedin"></i></a
+        ><a href="https://www.instagram.com/" target="_blank" class="mediaIcons"
+          ><i class="fa-brands fa-instagram"></i></a
+        ><a href="https://www.facebook.com/" target="_blank" class="mediaIcons"
+          ><i class="fa-brands fa-square-facebook"></i
         ></a>
-        &nbsp;&nbsp;&nbsp;&nbsp;<a
-          href="https://www.twitter.com/"
-          target="_blank"
-          class="mediaIcons"
-          ><i class="fa-brands fa-twitter fa-2x"></i></a
-        >&nbsp;&nbsp;&nbsp;&nbsp;<a
-          href="https://www.youtube.com/"
-          target="_blank"
-          class="mediaIcons"
-          ><i class="fa-brands fa-youtube fa-2x"></i
+        <a href="https://www.twitter.com/" target="_blank" class="mediaIcons"
+          ><i class="fa-brands fa-twitter"></i></a
+        ><a href="https://www.youtube.com/" target="_blank" class="mediaIcons"
+          ><i class="fa-brands fa-youtube"></i
         ></a>
         <p>
           Copyright &copy; 2023 Zoom Video Communications, Inc. All rights
