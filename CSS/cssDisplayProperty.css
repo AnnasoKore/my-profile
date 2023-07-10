@@ -1,0 +1,55 @@
+.ulList li {
+  display: inline-block;
+  padding: 5px 5px;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+}
+.navlink {
+  text-decoration: none;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 2px 2px;
+  padding: 3px;
+  color: blue;
+}
+#contactDiv {
+  background-color: rgba(0, 0, 0, 0.256);
+  text-align: right;
+  border-radius: 5px;
+}
+#navDiv {
+  background-color: rgb(203, 248, 203);
+  text-align: left;
+  border-radius: 5px;
+}
+#ul1 {
+  padding: 5px;
+  margin: 0px 5px;
+  display: inline-block;
+}
+#iframe {
+  border: none;
+  height: 500px;
+  width: 99%;
+  overflow: scroll;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+.headerSpan {
+  margin-left: 5px;
+}
+#footerDiv {
+  background-color: rgba(26, 25, 25, 0.758);
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+.mediaIcons {
+  font-size: 25px;
+  color: navy;
+}
+#resumeAncher {
+  text-decoration: none;
+  margin-left: 2px;
+}
