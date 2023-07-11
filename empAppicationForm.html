@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Employee Application From</title>
+    <link rel="stylesheet" href="CSS/empApplicationFrom.css"/>
+  </head>
+  <body>
+    <fieldset>
+      <legend>
+        <strong>Employee Application From</strong>
+      </legend>
+      <div>
+        <br />
+        <table>
+          <tbody>
+            <tr>
+              <td><label class="headinglabel">Full Name </label></td>
+              <td>
+                <input
+                  type="text"
+                  class="input"
+                  required="required"
+                  maxlength="40"
+                  autofocus="autofocus"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label  class="headinglabel">Email Address</label></td>
+              <td>
+                <input type="email" placeholder="abc@gmail.com" class="input" />
+              </td>
+            </tr>
+            <tr>
+              <td><label  class="headinglabel">Password</label></td>
+              <td><input type="password" class="input" /></td>
+            </tr>
+            <tr>
+              <td><label  class="headinglabel">Contact Number</label></td>
+              <td>
+                <input
+                  type="number"
+                  required="required"
+                  maxlength="10"
+                  class="input"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label  class="headinglabel">Profile Photo</label></td>
+              <td><input type="file" class="input" /></td>
+            </tr>
+            <tr>
+              <td><label   class="headinglabel">Date of Birth</label></td>
+              <td><input type="date" required="required" class="input" /></td>
+            </tr>
+            <tr>
+              <td><label   class="headinglabel">Gender</label></td>
+              <td>
+                <input type="radio" value="Male" name="gender" /><label class="radioBtn"
+                  >Male</label
+                >
+                <input type="radio" value="Female" name="gender" /><label class="radioBtn"
+                  >Female</label
+                >
+                <input type="radio" value="Transgender" name="gender" /><label class="radioBtn"
+                  >Transgender</label
+                >
+              </td>
+            </tr>
+            <tr>
+              <td><label   class="headinglabel">Marital Status</label></td>
+              <td>
+                <input type="radio" value="Yes" name="Status" /><label class="radioBtn"
+                  >Yes</label
+                >
+                <input type="radio" value="No" name="Status" /><label class="radioBtn">No</label>
+              </td>
+            </tr>
+            <tr>
+              <td><label   class="headinglabel">Know Tools & Technology</label></td>
+              <td>
+                <input type="checkbox" /><label class="checkboxBtnLabel">Angular</label>
+                <input type="checkbox" /><label class="checkboxBtnLabel">React</label>
+                <input type="checkbox" /><label class="checkboxBtnLabel">Python</label>
+                <input type="checkbox" /><label class="checkboxBtnLabel">Java</label>
+                <input type="checkbox" /><label class="checkboxBtnLabel">Jenkin</label>
+                <input type="checkbox" /><label class="checkboxBtnLabel">Git</label>
+                <input type="checkbox" /><label class="checkboxBtnLabel">Database</label>
+              </td>
+            </tr>
+            <tr>
+              <td><label   class="headinglabel">Designation</label></td>
+              <td>
+                <select>
+					<option>-: Select :-</option>
+                  <option>UI Developer</option>
+                  <option>Backend Developer</option>
+                  <option>Full Stack Developer</option>
+                  <option>Devops Engineer</option>
+                  <option>Tester</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label  class="headinglabel">Country</label></td>
+              <td>
+                <input
+                  type="text"
+                  value="India"
+                  readonly="readonly"
+                  class="input"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label  class="headinglabel">Present Address</label></td>
+              <td><textarea rows="7" cols="20"  class="input"></textarea></td>
+            </tr>
+            <tr>
+              <td><br /></td>
+              <td>
+                <br />
+                <button type="submit" class="buttons">
+                  <strong>Submit</strong></button
+                >
+                <button type="reset" class="buttons">
+                  <strong>Clear</strong>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </fieldset>
+  </body>
+</html>

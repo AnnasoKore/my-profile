@@ -5,6 +5,8 @@
   text-shadow: 2px 2px 1px rgb(81, 71, 71);
   color: rgba(228, 116, 97, 0.977);
   font-size: x-large;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Sofia', cursive; */
 }
 .nav1 {
   background-color: rgb(177, 225, 199);
@@ -21,6 +23,7 @@
   margin: 2px 2px;
   padding: 3px;
   color: blue;
+  font-family: 'Poppins', sans-serif;
 }
 .mediaIcons {
   margin: 2px 2px;
@@ -31,6 +34,7 @@
 .ulList li {
   margin: 5px 0px;
   padding: 2px 2px;
+  font-family: 'Signika', sans-serif;
 }
 .tableHead th,
 .tableBody td {
@@ -59,6 +63,7 @@
 .headerContent {
   font-size: 17px;
   margin: 5px 20px 5px 5px;
+  font-family: 'Poppins', sans-serif;
 }
 #ancher1 {
   color: rgb(245, 240, 240);
