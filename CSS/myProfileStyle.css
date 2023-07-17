@@ -25,6 +25,9 @@
   color: blue;
   font-family: 'Poppins', sans-serif;
 }
+.navlink:hover{
+  color: cadetblue;
+}
 .mediaIcons {
   margin: 2px 2px;
   padding: 3px;
