@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsubscribption</title>
+<style>
+    .form-box{
+        max-width: max-content;
+        max-height: max-content;
+        min-width: fit-content;
+        min-height: fit-content;
+        border: groove 2px rgba(240, 142, 14, 0.119);
+        margin: 2rem;
+        padding: 1rem;
+        border-radius: 10px;
+        font-size: large;
+    }
+    p{
+        height: max-content;
+        width: 20rem;
+        background-color: rgba(0, 0, 255, 0.3);
+        border-radius: 7px;
+        padding: 10px;
+    }
+    .getEmailText{
+        border: 0.5px solid rgba(0, 0, 255, 0.1);
+       border-radius: 5px;
+        width: 20rem;
+        height: 1.5rem;
+        background-color: rgba(166, 195, 196, 0.2);
+        margin: 5px 0px 15px 0px;
+    }
+    
+    .getreasonText{
+        border: 0.5px solid rgba(0, 0, 255, 0.1);
+       border-radius: 5px;
+        width: 20rem;
+        background-color: rgba(166, 195, 196, 0.1);
+        margin: 5px 0px 15px 0px;
+    }
+    #unsubscribeButton{
+        height: 2rem;
+        border: 0.5px solid rgba(0, 0, 255, 0.1);
+        border-radius: 5px;
+        font-size: large;
+        width: 10rem;
+        background-color: rgba(166, 195, 196, 0.1);
+        margin: 1rem 0rem 1rem 10rem;
+        padding: 5px;
+    }
+
+</style>
+</head>
+<body>
+    <div>
+        <div class="form-box">
+            <h2>Subscriber</h2><hr>
+            <p>We're sorry to see you go, but hey, no hard feelings, hopefully we will see you back one day.
+                Please fill in your email address in order to unsubscribe form the list.
+                You will receive an email to confirm your unsubscription, just to make sure this not an accident
+                or somebody else tries to unsubscribe you. 
+            </p>
+            <label for="emailId">Email</label><br>
+            <input type="email" name="emailId" required class="getEmailText"><br>
+            <label for="unsubscribeText">Unsubscribe reason</label><br>
+            <textarea name="unsubscribeText" cols="30" rows="3" required class="getreasonText"></textarea><hr>
+            <input type="button" value="Unsubscribe" id="unsubscribeButton">
+        </div>
+    </div>
+</body>
+</html>
