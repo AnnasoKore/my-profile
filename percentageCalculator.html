@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Signika&family=Sofia&display=swap"
+      rel="stylesheet"
+    />
+    <title>Discount Calculator</title>
+    <style>
+      #calculatorDiv {
+        border: 2px groove burlywood;
+        border-radius: 10px;
+        max-height: max-content;
+        max-width: max-content;
+        min-width: fit-content;
+        min-height: fit-content;
+        margin: 2rem;
+        padding: 1rem;
+        color: rgb(52, 208, 213);
+        font-size: 15px;
+        font-weight: bold;
+        font-family: "Poppins", sans-serif;
+        box-shadow: 2px 2px 10px rgb(18, 19, 19);
+        background-color: snow;
+      }
+      h2 {
+        text-align: center;
+        margin: 5px;
+        text-transform: uppercase;
+        font-family: "Sofia", cursive;
+      }
+      .amount {
+        position: relative;
+        display: inline-block;
+        margin: 5px 0px 10px 0px;
+        padding: 5px;
+        border-radius: 5px;
+        height: 1.2rem;
+        width: 20rem;
+        border-width: 1px;
+      }
+      #calculateButton {
+        height: 2rem;
+        width: 20.6rem;
+        border-radius: 12px;
+        font-size: 20px;
+        border-width: 1px;
+        background-color: #4caf50;
+        color: antiquewhite;
+        margin: 5px 0px 10px 0px;
+      }
+      #calculateButton:hover {
+        background-color: burlywood;
+        color: black;
+      }
+      .numberTooltip {
+        visibility: hidden;
+        width: 150px;
+        background-color: rgba(0, 0, 0, 0.434);
+        color: #f30909a8;
+        text-align: center;
+        border-radius: 6px;
+         position: absolute;
+         margin: 0px 20px;
+         padding: 2px 0px;
+        z-index: 1;
+      }      
+      .amount:hover .numberTooltip{
+          visibility: visible;
+        }
+      
+    </style>
+  </head>
+  <body>
+    <div>
+      <div id="calculatorDiv">
+        <h2>Discount Calculator</h2>
+        <p>Enter the Bill amount and Discount in percentage.</p>
+        <label for="bill_amount">Bill Amount</label><span class="numberTooltip" >Enter only digits</span><br />
+        <input type="number" name="bill_amount" class="amount" /><br />
+        <label for="discount">Discount in percentage</label><span class="numberTooltip">Enter only digits</span><br />
+        <input type="number" name="discount" class="amount" />
+        <br />
+        <input
+          type="button"
+          name="Button"
+          value="Calculate"
+          id="calculateButton"
+        />
+        <br />
+        <label> Total Discount Amount </label>
+      </div>
+    </div>
+  </body>
+</html>
