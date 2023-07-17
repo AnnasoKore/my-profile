@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Position Property</title>
+    <style>
+      .container-box {
+        border: 2px groove cadetblue;
+        margin: 3rem 3rem;
+        padding: 3rem;
+        max-width: max-content;
+        max-height: max-content;
+        border-radius: 5px;
+        background-color: rgba(95, 158, 160, 0.05);
+      }
+      .div1 {
+        display: inline-block;
+        border: 1px solid red;
+        height: 300px;
+        width: 200px;
+        margin: auto 7px;
+        border-radius: 8px;
+        position: relative;
+        top: 1.5rem;
+      }
+      .div2 {
+        display: inline-block;
+        border: 1px solid red;
+        height: 300px;
+        width: 200px;
+        margin: auto 7px;
+        border-radius: 8px;
+      }
+      .div3 {
+        display: inline-block;
+        border: 1px solid red;
+        height: 300px;
+        width: 200px;
+        margin: auto 7px;
+        border-radius: 8px;
+        position: relative;
+        top: 1.5rem;
+      }
+      .h2-basic {
+        margin: 0px;
+        background-color: rgba(56, 215, 56, 0.838);
+        text-align: center;
+        padding: 10px;
+        border-top-right-radius: 6px;
+        border-top-left-radius: 6px;
+      }
+      .h2-standard2 {
+        margin: 0px;
+        background-color: rgba(56, 215, 56, 0.838);
+        text-align: center;
+        padding: 10px;
+        border-top-right-radius: 6px;
+        border-top-left-radius: 6px;
+      }
+      .h2-standard1 {
+        margin: 0px;
+        background-color: rgb(242, 30, 30);
+        text-align: center;
+        padding: 10px;
+        border-top-right-radius: 6px;
+        border-top-left-radius: 6px;
+      }
+      ul li {
+        list-style-type: none;
+        margin: 7px 0px;
+        margin-inline-start: 1rem;
+      }
+      .price-label {
+        display: block;
+        text-align: center;
+        font-size: larger;
+        font-weight: bold;
+      }
+      .price-button {
+        background-color: rgba(56, 215, 56, 0.838);
+        height: 2rem;
+        width: 7rem;
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+        margin: 10px 50px 10px 50px;
+        border-radius: 8px;
+      }
+      .right-li::before {
+        content: "✔️";
+      }
+      .wrong-li::before {
+        content: "❌";
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-box">
+      <div class="div1">
+        <h2 class="h2-basic">Basic</h2>
+        <ul>
+          <li class="right-li">Hosting</li>
+          <li class="wrong-li">Domain</li>
+          <li class="right-li">1 GB Space</li>
+          <li class="wrong-li">Free SSL</li>
+          <li class="right-li">1 Website Host</li>
+        </ul>
+        <label class="price-label"> &dollar;5</label>
+        <input type="button" value="Buy Now" class="price-button" />
+      </div>
+      <div class="div2">
+        <h2 class="h2-standard1">Standard</h2>
+        <ul>
+          <li class="right-li">Hosting</li>
+          <li class="right-li">Domain</li>
+          <li class="right-li">1 GB Space</li>
+          <li class="wrong-li">Free SSL</li>
+          <li class="right-li">1 Website Host</li>
+        </ul>
+        <label class="price-label"> &dollar;10</label>
+        <input type="button" value="Buy Now" class="price-button" />
+      </div>
+      <div class="div3">
+        <h2 class="h2-standard2">Standard</h2>
+        <ul>
+          <li class="right-li">Hosting</li>
+          <li class="right-li">Domain</li>
+          <li class="right-li">1 GB Space</li>
+          <li class="right-li">Free SSL</li>
+          <li class="right-li">1 Website Host</li>
+        </ul>
+        <label class="price-label"> &dollar;20</label>
+        <input type="button" value="Buy Now" class="price-button" />
+      </div>
+    </div>
+  </body>
+</html>
